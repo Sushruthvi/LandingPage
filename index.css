@@ -3,7 +3,7 @@
     padding: 0;
     
 }
-.body{
+body{
     font-family:'Roboto';
 }
 .container{
@@ -123,5 +123,22 @@
 
 .part2 .captions {
     display: none;
+}
+.part3{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #e5e7eb;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+.part3 .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+.part3 .writer{
+    padding-left: 72%;
+    font-size: 18px;
 }
 
