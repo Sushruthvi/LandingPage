@@ -66,6 +66,8 @@
     font-size:18px;
 }
 .signup-button{
+    margin-top: 10px;
+    padding-top: 2px;
     background-color:#3882f6;
     width: fit-content;
     padding-left:2.3%;
@@ -78,5 +80,48 @@
     color: #e5e7eb;
     display:flex;
     justify-content: center;
+}
+.part2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom: 30px;
+
+}
+.part2 .text-part{
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+.part2 .boxes {
+    padding-top: 30px;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+
+/* Add box containers */
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 3px solid #3882f6;
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+
+.part2 .captions {
+    display: none;
 }
 
